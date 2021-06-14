@@ -1,0 +1,124 @@
+/* home  */
+.Home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;    /*chèn lên nhau các div có cái này*/
+  opacity: 0.6;
+  z-index: 1;
+}
+.soon{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soon-text{
+  border-radius: 10px;
+  width: 30%;
+  padding: 50px;
+  color: wheat;
+  background-color: rgba(105,105,105,1);
+  font-size: 2rem;
+  text-align: center;
+}
+.ok{
+  position: absolute;  
+  z-index: 2;
+}
+.sign{
+  display: flex;
+  height: 80px;
+  width: 100vw;
+  border: 0px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.dang{
+  display: flex;
+  margin-right: 100px;
+  width: 250px;
+  justify-content: space-between;
+}
+.pc{
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 23px;
+  width: 175px;
+  text-align: center;
+  font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 10px;
+}
+.nhap_ky{
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 23px;
+  width: 100px;
+  text-align: center;
+  font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nhap_ky:hover, .pc:hover{
+  cursor: pointer;
+  background-color: rgb(133, 20, 20);
+}
+.img_sign{
+  width: 100px;
+  margin-left: 125px;
+}
+.Text_home{
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+}
+.flex{
+  width: 600px;
+  text-align: center;
+}
+.text{
+  margin-top: 20vh;
+}
+.logo{
+  margin-top: 20vh;
+}
+.img{
+  width: 300px;
+  height: 300px;
+}
+.img_app{
+  width: 200px;
+  cursor: pointer;
+}
+.hr{
+  height: 4px;
+  background-color: yellow;
+  width: 100px;
+  border: 0px;
+  border-radius: 10px;
+}
+.h2{
+  font-size: 40px;
+  font-weight: 370;
+  color: mintcream;
+}
+.name{
+  margin-top: 5vh;
+  font-size: 25px;
+  color: skyblue; 
+}
+.explain{
+  margin-top: 5vh;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  color: greenyellow;
+}
+/* ============================================================== */
